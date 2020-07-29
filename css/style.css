@@ -1,0 +1,78 @@
+.top-bar {
+  background-image: url("../Assets/earthNew-2.jpg");
+  background-color: #333333;
+  background-size: cover;
+  height: 75px;
+}
+
+.top-bar-title {
+  color: aliceblue;
+  font-family: "Julius Sans One", sans-serif;
+  font-weight: bold;
+}
+
+.row1 {
+  width: 100vw;
+  margin-top: 0px;
+  left: 50%;
+  background-color: black;
+  color: aliceblue;
+  text-align: center;
+  font-family: "Julius Sans One", sans-serif;
+  font-weight: bold;
+}
+
+.instructions {
+  padding-top: 8px;
+}
+
+.row-full {
+  width: 100vw;
+  height: calc(100vh - 215px);
+  margin-top: 0px;
+}
+
+#country {
+  width: 100vw;
+  height: 125px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  background-color: black;
+  font-family: "Julius Sans One", sans-serif;
+  color: aliceblue;
+  font-weight: bolder;
+}
+
+.grid-container {
+  background-color: black;
+  color: aliceblue;
+  font-family: "Julius Sans One", sans-serif;
+}
+
+.grid-container h1 {
+  background-color: black;
+  color: aliceblue;
+  font-family: "Julius Sans One", sans-serif;
+}
+
+footer {
+  background-color: black;
+  margin: 0px;
+  color: aliceblue;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+footer p {
+  margin-bottom: 0px;
+}
+
+.text-center {
+  font-family: "Julius Sans One", sans-serif;
+  font-weight: bold;
+}
+
+.videoListItem {
+  cursor: pointer;
+}
