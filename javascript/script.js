@@ -1,7 +1,7 @@
 //FUNCTION COUNTRY CHANGE
 function handleCountryChange(lat, lng) {
   $.ajax({
-    url: `https://api.opencagedata.com/geocode/v1/json?q=${lat}+${lng}&key=f3d378ee02e1426d89edc3bae843d163`,
+    url: `https://api.opencagedata.com/geocode/v1/json?q=${lat}+${lng}&key=AIzaSyBycvTl0JDsFyOasF5SiFw8lgFNcFXrzi4`,
     method: "GET",
   }).then(function (response) {
     var countryCode = response.results[0].components["ISO_3166-1_alpha-2"];
